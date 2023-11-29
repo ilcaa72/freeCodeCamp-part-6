@@ -53,7 +53,7 @@ ROBOTSTXT_OBEY = True
 #DOWNLOADER_MIDDLEWARES = {
 #    'bookscraper.middlewares.BookscraperDownloaderMiddleware': 543,
 #}
- DOWNLOADER_MIDDLEWARES = {
+DOWNLOADER_MIDDLEWARES = {
         'scrapeops_scrapy.middleware.retry.RetryMiddleware': 550,
         'scrapy.downloadermiddlewares.retry.RetryMiddleware': None,
         }
